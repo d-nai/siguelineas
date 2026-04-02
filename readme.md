@@ -15,7 +15,7 @@ Robot autónomo capaz de seguir una linea, mediante sensores IR, control de moto
 
 ## 3. 🚀 Características principales
 
-- Lectura de sensores IR (señal anal    ógica)
+- Lectura de sensores IR (señal analógica)
 - Calibración manual (por software) por sensor
 - Chasis diseñado e impreso en 3D
 - Control diferencial en motores
