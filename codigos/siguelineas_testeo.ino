@@ -4,7 +4,6 @@ int sens1 = A1; int sens2 = A2; int sens3 = A3; int sens4 = A4; int sens5 = A5;
 int pwmleft; int pwmright; int pwm = 250;
 int read1; int read2; int read3; int read4; int read5; 
 unsigned long lasttime = 0;
-int avanz_retroc;
 
 void setup() {
   pinMode(IN1, OUTPUT);
@@ -84,15 +83,6 @@ void loop() {
 }
 
 void forward(int speed1, int speed2){
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, HIGH);
-  analogWrite(ENA, speed1);
-  analogWrite(ENB, speed2);
-}
-
-void reverse(int speed1, int speed2){
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, LOW);
