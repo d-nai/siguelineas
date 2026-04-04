@@ -77,6 +77,6 @@ A partir de estas lecturas, el sistema estima la desviación respecto a la líne
 
 ## 9. 📂 Estructura
 
-- /codigo -> programa Arduino
+- /codigos -> programa principal Arduino y codigos de testeos
 - /imagenes -> fotos del proyecto
 - /stl -> modelos 3D del proyecto
